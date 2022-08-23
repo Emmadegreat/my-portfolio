@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="my personal portfolio website">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,100;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="icon" href="./images/mylogo (1).png">
+    <title>EMF|CODE</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="#"><img src="./images/mylogo (1).png" alt="page-logo"></a>
+        </div>
+        <div class="toggle-btn" onclick="Toggle()";>
+            <button>&#9776;</button>
+        </div>
+        <navbar class="links-wrapper">
+            <ul>
+                <li><a href="#about">about</a></li>
+                <li><a href="#skill">skill</a></li>
+                <li><a href="#project">project</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </navbar>
+         
+    </nav>
+
+    <!--------main--------->
+    <main>
+        <section id="about">
+            <p>welcome to my portfolio website</p>
+        </section>
+        <section id="skill">
+            <p>my skills</p>
+        </section>
+        <section id="project">
+            <p>my projects</p>
+        </section>
+        <section id="contact">
+            <p>contact me via</p>
+        </section>
+    </main>
+    
+
+    <footer>
+        <section class="footer-wrapper">
+            <div class="box">
+                <address>
+                    <h4>5 bankole street</h4>
+                </address>
+            </div>
+            <div class="box">
+                <h4>phone number</h4>
+            </div>
+            <div class="box">
+                <h4>connect me</h4>
+                <details>
+                    <div>
+                        <p>emma.mkpurunchi@facebook.com</p>
+                        <p>emf@linkedin.com</p>
+                        <p>emf@gmail.com</p>
+                        <p>emf001@skype.com</p>
+                    </div>
+                        
+                    
+                </details>
+            </div>
+        </section>
+    </footer>
+    <script>
+        AOS.init({
+            duration:2000,once:false
+        })
+    </script>
+    <script type="text/babel" src="./index.js"></script>
+</body>
+</html>
