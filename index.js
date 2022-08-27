@@ -2,6 +2,11 @@ function Toggle() {
     let navbar = document.querySelector('.links-wrapper');
     navbar.classList.toggle('active');
 }
+
+let date = new Date();
+let year = date.getFullYear();
+let full_year = document.getElementById("year");
+full_year.innerHTML = year;
 //2:44pm
 /*var a = 1;
 while (a<10) {
