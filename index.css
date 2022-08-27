@@ -19,7 +19,7 @@ nav{
     background: #fdf3f2;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid green;
+    /*border-bottom: 1px solid green;*/
     position: fixed;
     z-index: 4000;
 }
